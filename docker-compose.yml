@@ -43,6 +43,7 @@ services:
       - node-modules:/project/node_modules
       - ./docker-config/buildchain/package.json:/project/package.json
       - ./src:/project/src
+    command: yarn run blendid
 
   database:
     image: mariadb:10.3

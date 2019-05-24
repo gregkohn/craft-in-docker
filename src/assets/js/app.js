@@ -1,2 +1,3 @@
-const a = number => number*2
-console.log(a(2))
+import './modules'
+
+console.log(`app.js has loaded!`)

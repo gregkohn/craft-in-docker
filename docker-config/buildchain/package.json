@@ -8,7 +8,9 @@
     "build-css": "./node_modules/.bin/node-sass --output-style compressed ./src/assets/css/app.scss > ./src/web/assets/css/app.css",
     "build-js": "./node_modules/.bin/babel ./src/assets/js/app.js --presets es2015 --out-file ./src/web/assets/js/app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "blendid": "^4.5.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "babel-cli": "^6.26.0",
